@@ -433,7 +433,7 @@ export default function NexusQuiz() {
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-2xl font-bold text-[#00e0ff]">Dashboard Nexus - Métricas em Tempo Real</h1>
             <button 
-              onClick={() => setCurrentScreen('intro')}
+              onClick={() => setShowDashboard(false)}
               className="bg-[#ff6600] px-4 py-2 rounded-lg hover:bg-[#ff8800] transition-colors"
             >
               Voltar ao Quiz
